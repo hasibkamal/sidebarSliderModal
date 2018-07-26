@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Title</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/ticker-style.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<style type="text/css">
+	
+    .header{
+    	background: url('images/bg_banner.jpg') repeat-x scroll;
+    }
+	</style>
+</head>
+<body>
+	<div class="container-fluid header" style="width: 100%; height: auto;">
+		<div class="col-md-12 text-center">
+	        <div class="col-md-2 col-md-offset-1">
+	            <img width="120" height="120" src="images/logo.png" alt="Logo">
+	        </div>
+	        <div class="col-md-6"  style="margin-top:20px;">
+	            <h3 style="margin: 0;color:#EF0B0A">Welcome to One Stop Service</h3>
+	            <h2 class="less-padding" style="color: #1E0C82; font-size: 27px"> <strong>Online Content Provider Ltd</strong>
+	            </h2>
+	        </div>
+	    </div>
+    </div>
+    
+
+	<div class="container" style="padding-top: 15px;">
+		<div class="modal fade" id="modalDiv">
+		    <div class="modal-dialog modal-sm">
+		        <div class="modal-content" id="modalResponseDiv"></div>
+		    </div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12 alert alert-success" style="padding: 0px; height: 45px;">
+				<div class="ticker-section" style="padding: 5px 0px">
+                    <div class="col-md-2">
+                        <h5 class="newsTicker-title"><b> Update News : </b></h5>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="TickerNews">
+                            <div class="ti_wrapper">
+                                <div class="ti_slide">
+                                    <div class="ti_content">
+                                    	<div class="ti_news">
+                                        	<a href="https://hasibkamal.github.io" target="_blank" style="line-height: 30px">Hasib Kamal Chowdhury</a> 
+                                        </div>
+
+                                        <div class="ti_news">
+                                        	<a href="#" target="_blank" style="line-height: 30px">Mbappe joins Ronaldo, Messi on FIFA player of the year shortlist</a> 
+                                        </div>
+                                        <div class="ti_news">
+                                        	<a href="#" target="_blank" style="line-height: 30px">Google hit with record $5 billion EU antitrust fine</a> 
+                                        </div>
+                                        <div class="ti_news">
+                                        	<a href="#" target="_blank" style="line-height: 30px">Joy pledges to roll out 5G if Awami League is re-elected</a> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+			</div>
+		</div>		
+
+		<div class="row" style="padding:5px;">
+			<div class="col-md-2 menu">
+			<ul class="nav nav-list">
+			  <li class="active">
+			    <a href=""><i class="fa fa-dashboard fa-fw"></i> Home </a>
+			  </li>
+
+			  <li>
+			    <a class="accordion-heading" data-toggle="collapse" data-target="#submenu">
+			      <span class="nav-header-primary">Application <b class="caret"></b></span>
+			    </a>
+			    <ul class="nav nav-list collapse" id="submenu">
+			      <li><a href="#" title="Title">Sub Item 1</a></li>
+			      <li><a href="#" title="Title">Sub Item 2</a></li>
+			      <li><a href="#" title="Title">Sub Item 3</a></li>
+			      <li><a href="#" title="Title">Sub Item 4</a></li>
+			    </ul>
+			  </li>
+
+			  <li>
+			    <a href=""><i class="fa fa-dashboard fa-fw"></i> Profile </a>
+			  </li>
+			  <li>
+			    <a href=""><i class="fa fa-dashboard fa-fw"></i> Portfolio </a>
+			  </li>
+			  <li>
+			    <a href=""><i class="fa fa-dashboard fa-fw"></i> About Us </a>
+			  </li>
+
+			  <li>
+			    <a href=""><i class="fa fa-dashboard fa-fw"></i> Contact Us </a>
+			  </li>
+			  <li>
+			    <a href=""><i class="fa fa-dashboard fa-fw"></i> Company </a>
+			  </li>
+			  <li>
+			    <a href=""><i class="fa fa-dashboard fa-fw"></i> Notice </a>
+			  </li>
+			  <li>
+			    <a href=""><i class="fa fa-dashboard fa-fw"></i> Report </a>
+			  </li>
+			  <li>
+			    <a href=""><i class="fa fa-dashboard fa-fw"></i> Address </a>
+			  </li>
+			  <li>
+			    <a href=""><i class="fa fa-dashboard fa-fw"></i> Settings </a>
+			  </li>
+			</ul>
+			</div>
+			<div class="col-md-8">
+			    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#myCarousel" data-slide-to="1"></li>
+				    <li data-target="#myCarousel" data-slide-to="2"></li>
+				  </ol>
+
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner">
+				    <div class="item active">
+				      <img style="height:500px; width:100%" src="images/one.png" alt="Los Angeles">
+				    </div>
+
+				    <div class="item">
+				      <img style="height:500px; width:100%" src="images/two.jpg" alt="Chicago">
+				    </div>
+
+				    <div class="item">
+				      <img style="height:500px; width:100%" src="images/three.jpg" alt="New York">
+				    </div>
+				  </div>
+
+				  <!-- Left and right controls -->
+				  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+			</div>
+			<div class="col-md-2 login-panel">
+				<h4 class="text-center">User Access</p>
+				<hr/>
+				<a href="server_page.html"  class="promoteModal btn  btn-primary btn-sm btn-block" data-toggle="modal" data-target="#modalDiv" onclick="openModal('.promoteModal','#modalResponseDiv')"><i class="fa fa-pencil" aria-hidden="true"></i> Login</a>
+				<p style="padding-top: 15px;">New User? <a href="">Signup</a></p>
+				<p><a href="">Need Help?</a></p>
+				<p><a href="">Forget Password?</a></p>
+				<br/>
+				<span>Managed By</span>
+				<br/>
+				<p><a target="_blank" href="http://ocpl.com.bd">OCPL</a></p>
+
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.ticker.js"></script>
+	<script type="text/javascript">
+		
+		function openModal(link, div) {
+		    $(link).on('click', function (e) {
+		        e.preventDefault();
+		        $(div).html('<div style="text-align:center;"><h3 class="text-primary">Loading Form...</h3></div>');
+		        $(div).load(
+		            $(this).attr('href'),
+		            function (response, status, xhr) {
+		                if (status === 'error') {
+		                    alert('error');
+		                    $(div).html('<p>Sorry, but there was an error:' + xhr.status + ' ' + xhr.statusText + '</p>');
+		                }
+		                return this;
+		            }
+		        );
+		    });
+		}
+
+
+		$(function(){
+            var timer = !1;
+            _Ticker = $(".TickerNews").newsTicker({});
+            _Ticker.on("mouseenter",function(){
+                var __self = this;
+                timer = setTimeout(function(){
+                    __self.pauseTicker();
+                },100);
+            });
+            _Ticker.on("mouseleave",function(){
+                clearTimeout(timer);
+                if(!timer) return !1;
+                this.startTicker();
+            });
+        });
+
+	</script>
+</body>
+</html>

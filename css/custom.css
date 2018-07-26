@@ -1,0 +1,47 @@
+body{
+	background-color: #F3FAF0;
+}
+
+.menu{
+	background-color: #DFF0D8;
+	border: solid #C0E0AE 2px;
+	padding: 5px;
+}
+.menu ul li :hover {
+	background-color: #C0E0AE;
+}
+
+.menu ul li ul{
+	background-color: #DFF0D8;
+}
+
+.menu ul li ul li{
+	background-color: #DFF0D8;
+}
+.active{
+	background-color: #C0E0AE;
+}
+
+.header{
+	background-color: red;
+    
+}
+
+.login-panel{
+	padding: 15px;
+	background-color: #C0E0AE;
+	border-radius: 10px;
+}
+
+
+.login-panel p{
+	padding-top: 5px;
+	font-size: 14px;
+	text-align: right;
+}
+
+.login-panel span{
+	font-size: 10px;
+	text-align: right;
+	float: right;
+}
